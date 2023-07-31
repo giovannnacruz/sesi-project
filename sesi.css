@@ -1,0 +1,95 @@
+
+.city     {
+    background-color: rgb(247, 16, 16);
+    color: rgb(237, 226, 226);
+    border: 4px solid black;
+    margin: 40px;
+    padding: 40px;
+    } 
+    .sesi     {
+    background-color: rgb(247, 16, 16);
+    color: rgb(237, 226, 226);
+    border: 4px solid rgb(243, 228, 228);
+    margin: 40px;
+    padding: 40px;
+    }
+    .site     {
+    background-color: rgb(247, 16, 16);
+    color: rgb(245, 229, 229);
+    border: 4px solid rgb(11, 1, 1);
+    margin: 40px;
+    padding: 40px;
+    }
+    {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        background-color: #000;
+        margin: 10px;
+    }
+    
+    .logo {
+        width: 250px;
+        padding: 8px;
+        margin: 30px;
+    }
+    
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ec0c0c;
+        width: 100%;
+        max-width: 300px;
+        border-radius: 20px;
+        padding: 40px 60px 20px 60px;
+        text-align: left;
+    }
+    
+    
+    .form input, select{
+        width: 100%;
+        max-width: 600px;
+        padding: 10px;
+        border:0;
+        margin-bottom: 30px;
+    }
+    
+    
+    .form input[type="submit"]{
+        background-color: #af0f0f;
+        color: #f0f0f0;
+    }
+    
+    .criar{
+        margin-bottom: 20px;
+        margin-right: 50px;
+    
+    }
+    
+    .logo{
+        margin-bottom: 20px;
+        margin-right: 50px;
+    
+    }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+.dropdown-child {
+  display: none;
+  background-color: rgba(241,222,254,255);
+  min-width: 200px;
+ 
+}
+
+
+.dropdown:hover .dropdown-child {
+  display: block;
+
+}
